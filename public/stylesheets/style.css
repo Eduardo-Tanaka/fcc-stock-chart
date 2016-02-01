@@ -1,0 +1,52 @@
+body {
+  padding: 100px;
+  background-color: #444;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.stocks {
+	background-color: #333;
+}
+
+.stock {
+	background-color: white;
+	height: 130px;
+	border: 1px solid #bbb;
+	border-left-width: 5px;
+	margin: 13px;
+    width: 31%;
+}
+
+.stock:hover {
+	border-left-color: red;
+}
+
+p {
+	color: #A0A0A2;
+}
+
+.add {
+	padding-top: 20px;	
+	font-weight: bold;
+}
+
+.close {
+	margin-top: 20px;
+}
+
+#alert p {
+	color: red;
+}
+
+#stockBox {
+	background-color: white;
+	height: 130px;
+	border: 1px solid #5cb85c;
+	border-left-width: 5px;
+	margin: 13px;
+    width: 31%;
+}
